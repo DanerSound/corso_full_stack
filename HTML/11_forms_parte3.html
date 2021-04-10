@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms parte 3</title>
+</head>
+<body>
+    <!-- aggiungendo attributto "required" forzo al browser di controllare che ci sia qualcosa
+    di lecito nel campo in cui è associato-->
+    <h1> Forms terza parte </h1>
+    <form action="" method="GET">
+        <label for="mail"> Email</label>
+        <input id="mail" type="email" name="miamail" placeholder="inserisci la tua mail" required>
+
+        <label for="psw"> password</label>
+        <input id="psd" type="password" name="miapass" placeholder="inserisci la tua password" required>
+        <input type="submit" value="ENTRA">
+    </form>
+    
+    <hr>
+
+    <form action="" method="GET">
+        <h3>Parlaci di te</h3>
+        <textarea name="descri" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value=" invia">
+    </form>
+    
+    <!-- implementare il radiobutton: per creare la mua exclusione devi definirli con lo stesso nome in "name"-->
+    <form action="" method="GET">
+        <h3>Sei</h3>
+        <label for="woman">Donna</label>
+        <input id="woman" type="radio" name="gender" value="donna">
+
+        <label for="man">Uomo</label>
+        <input id="man" type="radio" name="gender" value="uomo">
+
+        <h3> cosa ti piace fare:</h3>
+        <select name="spc" id="">
+            <option value="backend">backend </option>
+            <option value="frontend"> frontend</option>
+            <option value="fullstack"> fullstack</option>
+        </select>
+
+    </form>
+
+    <!-- questa roba puo essere inclussa in uno stesso form-->
+
+</body>
+</html>
