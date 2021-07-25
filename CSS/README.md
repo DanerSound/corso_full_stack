@@ -100,7 +100,9 @@ si intende che ogni componente HTML puo' essere visto come un rettangolo avvolto
 
 quando modi
 
-![CSS%20023abe741057485d9d15173da381bbf3/boxmodel1.jpg](CSS%20023abe741057485d9d15173da381bbf3/boxmodel1.jpg)
+![boxmodel1.jpg](https://github.com/DanerSound/corso_full_stack/blob/main/img/boxmodel1.jpg)
+
+
 
 0- contenuto BLUE
 
@@ -110,7 +112,7 @@ quando modi
 
 3-margine  SPAZIO BIANCO ESTERNO TRASPARENTE
 
-![CSS%20023abe741057485d9d15173da381bbf3/boxmodel2.jpg](CSS%20023abe741057485d9d15173da381bbf3/boxmodel2.jpg)
+![boxmodel2.jpg](https://github.com/DanerSound/corso_full_stack/blob/main/img/boxmodel2.jpg)
 
 BOXMODEL 2 :
 
@@ -158,3 +160,17 @@ MEDIA QUERIES :
 
 devi pensarala come del codice css specifico che viene chiamato in un particolare device
 per potere fare le prove devi usare l'opzione smartphone the " inspection " 
+    
+    
+    
+TEST CSS : 
+    
+    Per superare la prova bisogna ricreare la pagina a modo nostro.  
+    
+![testCSS.jpg](https://github.com/DanerSound/corso_full_stack/blob/main/img/test-css.JPG)
+    
+    Questa e' la mia soltuzione : 
+    
+![SoluzioneCSS.jpg](https://github.com/DanerSound/corso_full_stack/blob/main/img/sol-css.JPG)
+    
+    Da un punto di vista del codice e' piu' complicata, rispetto la soluzione proposta, pero' funziona.
