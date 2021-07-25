@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificita ed Editarieta</title>
+    <style media="screen">
+        body {
+            color: blue; /* priorita 4*/       
+         }
+
+        h1 {
+            color: orange; /* priorita 1*/
+        }
+
+        .dark {
+            color: black; /* priorita 2*/
+        }
+
+        #specifico {            /* priorita 3*/
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="dark"> ciao!</h1>
+
+    <h1 id="Specifico">ciao ciao ciao </h1>
+
+    <!-- priorita 0-->
+    <h1 style="color: red;">ciao ciao ciao ciao ciao</h1> 
+</body>
+</html>

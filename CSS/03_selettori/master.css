@@ -1,0 +1,81 @@
+/*
+Tipi di Selettore:
+
+element ==> selezione per tipo di tag html;
+id;     ==> selezione per id;
+class;  ==> selezione per una intera classe di elementi;
+*;      ==> seleziona tutti gli elementi della pagina;
+*/
+
+
+/* Selettori di tipo - per elemento*/
+body {
+    background-color:blueviolet;
+}
+
+div {
+    background-color: brown;
+}
+
+p {
+    color: chocolate;
+}
+
+/* Selettori di classe */
+
+.bodered {
+    border: darkgray thick solid;
+}
+
+.soleggiato {
+    color: black;
+    background-color: chartreuse;
+}
+
+.cut {
+    max-width: 50%;
+}
+
+/* Selettori d'identificatore */
+#unico {
+    text-decoration: underline;
+}
+
+#intermezzo {
+    height: 5px;
+    background-color: crimson;
+}
+
+/* Selettori di gerarchia */
+
+/* riguarda tutti gli elementi delle liste non ordinate
+in particolare gli anchor_text */
+/* per selezionare tutti i link togliere il riferimento ad OL*/
+ol li a {
+    color:darkgreen;
+}
+
+/* Per selezionare un particolare elemento di un contenitore generico */
+div > h1 {
+    color: purple;
+}
+
+/* Per selezionare gli elementi per vicinanza ad un altro tipo di elemento SELEZIONE ELEMENTI SUBITO DOPO */
+h2 + p {
+    color: yellow;
+}
+
+/* per andare a cercare un particolare elemento */
+li a[href="https://www.google.com"]{
+    color:gray;
+}
+
+/* Selettori Universali */
+/* ma a modificare tutti gli elementi della pagina */ 
+/* 
+* {
+    proprieta: tipo 
+}
+
+
+*/
