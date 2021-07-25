@@ -13,11 +13,19 @@ lezione 3: Tag Fondamentali
     strong : bolg
     em : italic
 
+<<<<<<< HEAD
 lezione 9: DIV e SPAN
     sono contenitori generici, lavorano insieme alla class o similli, 
     sono ottimi quando si arriva al css
     div: è in block level produce un ritorno a capo 
     span non produe ritorno a capo è un INLINE elemente
+=======
+lezione 9: DIV e SPAN :sono contenitori generici
+    sono contenitori generici, lavorano insieme alla class o similli, 
+    sono ottimi quando si arriva al css
+    *div: è in block level produce un ritorno a capo 
+    *span: non produe ritorno a capo è un INLINE elemente
+>>>>>>> master
     
 lezione 10 : attributi dei tag
     gli attributi posso possono essere generici oppure essere specifici per

@@ -1,0 +1,24 @@
+/*body {
+    background-image: url(https://assets.newatlas.com/dims4/default/1ee2246/2147483647/strip/true/crop/1600x1067+0+66/resize/2400x1600!/format/webp/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F1a%2F41%2Fb280dc2a401ca62dbce65febd54f%2F200103main-rs-image-feature-800b-1600x1200.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1 {
+    background-color:crimson;
+}*/
+
+div{
+    /* background-image: url(https://assets.newatlas.com/dims4/default/1ee2246/2147483647/strip/true/crop/1600x1067+0+66/resize/2400x1600!/format/webp/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F1a%2F41%2Fb280dc2a401ca62dbce65febd54f%2F200103main-rs-image-feature-800b-1600x1200.jpg);*/
+    border-width: 7px;
+    border-style: dotted;
+    border-color: cornflowerblue;    
+}
+
+span{
+    background-color:darkblue ;
+}
+
+h1 {
+    border: 7px solid crimson;
+}
