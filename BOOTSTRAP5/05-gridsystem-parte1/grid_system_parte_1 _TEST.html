@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="main.css">
+
+    <title>Grid System - Parte 1</title>
+  </head>
+  <body>
+    <div class="text-center mt-2">
+        <h1>Il Grid System di Bootstrap - Parte 1</h1>
+    </div>
+
+    <div class="container">
+      <h2 class="text-center">Sistema a Griglia - 12 Colonne</h2>
+      <div class="row ">
+          <div class="col-1  my-col">1</div>
+          <div class="col-1  my-col">2</div>
+          <div class="col-1  my-col">3</div>
+          <div class="col-1  my-col">4</div>
+          <div class="col-1  my-col">5</div>
+          <div class="col-1  my-col">6</div>
+          <div class="col-1  my-col">7</div>
+          <div class="col-1  my-col">8</div>
+          <div class="col-1  my-col">9</div>
+          <div class="col-1  my-col">10</div>
+          <div class="col-1  my-col">11</div>
+          <div class="col-1  my-col">12</div>
+      </div>
+  </div>
+
+  <hr>
+
+
+        <!-- GLI ID NON POSSONO ESSERE NUMERICI!!! : la grandezza del div seguira' quello piu grande perche tutte le collone
+    sono contenute in una stessa riga-->
+         <div class="container mt-4 mb-4">
+      <div class="row ">
+        <div id="a" class="col-lg-6 col-md-4 my-col " >
+          1 di 4 columns
+        </div>
+        <div id="b" class="col-lg-6 col-md-8 my-col " >
+          2 di 4 columns
+        </div>
+      </div>
+      <div class="row">
+        <div id="c" class="col-lg-6 col-md-8 my-col" >
+          3 di 4 columns
+        </div>
+        <div id="d" class="col-lg-6 col-md-4 my-col" >
+          4 di 4 columns
+        </div>
+      </div>
+  </div>
+  <hr>
+
+
+
+<div class="container">
+  <h1>Esempio chat</h1>
+  <!--<div class="row mb-4">
+      <div class="col-9 pl-1 my-col"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet ornare ante. Donec ante sapien, dignissim a vulputate non, semper non massa. Integer consequat fermentum felis in ornare. Curabitur vehicula vulputate ullamcorper. Donec convallis nunc a libero mattis, nec egestas sem porttitor. Quisque nibh metus, accumsan ac nisi sit amet, faucibus dictum velit. Donec vel accumsan ligula. Integer sed mattis eros.
+        Donec eu risus vitae dui convallis iaculis. Nam sagittis molestie placerat. Quisque sit amet mi non orci molestie dictum nec nec dui. Integer bibendum nunc nec convallis porta. Duis ultricies ex vel odio feugiat ullamcorper. Sed quis leo finibus, vestibulum sem eu, aliquam urna. Morbi imperdiet sagittis mauris. Pellentesque aliquet tristique urna vel convallis. Praesent placerat tortor quis est commodo pellentesque. Proin vitae ullamcorper ante, sed pellentesque arcu. Quisque blandit porta placerat. Proin accumsan tortor id metus lobortis ornare. </div>
+      <div class="col-1 my-col"> VOID </div>
+      <div class="col-2 my-col">Ut elementum, justo nec sollicitudin condimentum, ligula ante pharetra velit, vitae congue erat nunc vitae purus. Curabitur vel imperdiet velit. Praesent commodo nisl ac leo lacinia efficitur. Sed ut sapien dictum, placerat eros ac, pellentesque neque. Vestibulum egestas diam dolor, in porta orci lobortis ut. Morbi sodales nulla eget odio congue sagittis. </div>
+  </div>-->
+
+  <div class="row mb-4 ">
+    <div class="col-9 my-col"> Ut elementum, justo nec sollicitudin condimentum, ligula ante pharetra velit, vitae congue erat nunc vitae purus. Curabitur vel imperdiet velit. Praesent commodo nisl ac leo lacinia efficitur. Sed ut sapien dictum, placerat eros ac, pellentesque neque. Vestibulum egestas diam dolor, in porta orci lobortis ut. Morbi sodales nulla eget odio congue sagittis.</div>
+    <div class="col-1 ms-auto"></div>
+    <div class="col-2 my-col">Ut elementum, justo nec sollicitudin condimentum, ligula ante pharetra velit, vitae congue erat nunc vitae purus. Curabitur vel imperdiet velit. Praesent commodo nisl ac leo lacinia efficitur. Sed ut sapien dictum, placerat eros ac, pellentesque neque. Vestibulum egestas diam dolor, in porta orci lobortis ut. Morbi sodales nulla eget odio congue sagittis. </div>
+  </div>
+
+  <div class="row mb-4">
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-lg-6 my-col"> ARE MESSAGGIO </div>
+    <div class="col-1 ms-auto"></div>
+    <div class="col-2 my-col"> INVIO </div>
+  </div>
+
+
+</div>
+
+ <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 my-col">Colonna Small 5x1 - (col-sm-5 ≥576px)</div>
+            <div class="col-sm-3 my-col">Colonna Small 3x1 - (col-sm-3 ≥576px)</div>
+            <div class="col-sm-4 my-col">Colonna Small 4x1 - col-sm-4 ≥576px)</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 my-col">Colonna Medium 2x1 - (col-md-2 ≥768px)</div>
+            <div class="col-md-6 my-col">Colonna Medium 6x1 - (col-md-6 ≥768px)</div>
+            <div class="col-md-4 my-col">Colonna Medium 4x1 - col-md-4 ≥768px)</div>
+        </div>
+    </div>
+
+    <hr>
+
+    
+    <div class="container">
+     <div class="row">
+            <div class="col-lg-6 col-md-8  my-col">Colonna - (col-lg-6 ≥992px) (col-md-4 ≥768px) </div>
+            <div class="col-lg-6 col-md-4  my-col">Colonna - (col-lg-6 ≥992px) (col-md-8 ≥768px)</div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-md my-col">Colonna - (col-lg-6 ≥992px)  (col-md-4 ≥768px) </div>
+          <div class="col-lg-6 col-md-8 col-sm my-col">Colonna - (col-lg-6 ≥992px) (col-md-8 ≥768px)</div>
+      </div>
+    </div>
+
+    <hr>
+
+ -->
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

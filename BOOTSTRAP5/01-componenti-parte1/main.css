@@ -1,0 +1,11 @@
+h1,h2, p {
+    text-align: center;
+}
+
+.arancione {
+    background-color: aqua;
+}
+
+.salmone {
+    background-color: red;
+}

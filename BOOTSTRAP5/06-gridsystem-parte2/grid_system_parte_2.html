@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Grid System - Parte 2</title>
+  </head>
+  <body>
+    <div class="text-center mt-2 mb-4">
+        <h1>Il Grid System di Bootstrap - Parte 2</h1>
+    </div>
+
+    <div class="container mb-4">
+      <h2 class="text-center mb-4">Sistema a Griglia - 12 Colonne</h2>
+      <div class="row">
+          <div class="col-1 my-col">1</div>
+          <div class="col-1 my-col">2</div>
+          <div class="col-1 my-col">3</div>
+          <div class="col-1 my-col">4</div>
+          <div class="col-1 my-col">5</div>
+          <div class="col-1 my-col">6</div>
+          <div class="col-1 my-col">7</div>
+          <div class="col-1 my-col">8</div>
+          <div class="col-1 my-col">9</div>
+          <div class="col-1 my-col">10</div>
+          <div class="col-1 my-col">11</div>
+          <div class="col-1 my-col">12</div>
+      </div>
+    </div>
+
+    <hr>
+    
+    <div class="container">
+      <h2 class="text-center"> Ordinamento delle collone </h2>
+
+      <div class="row ">
+        <div class="col-sm-4 my-col order-lg-3" id="a"> one ( order-lg-3 )</div>
+        <div class="col-sm-4 my-col order-lg-1" id="b"> two ( order-lg-1 ) </div>
+        <div class="col-sm-4 my-col order-lg-2" id="c"> thre ( order-lg-2 ) </div>
+      </div>
+      <!-- le parentesi specificano quello che accade quando si raggiunge una grandezza lg -->
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <h2 class="text-center">Offset - Come lasciare "spazi Bianchi"</h2>
+
+      <div class="row mb-4">
+        <div class="col-1 my-col">1</div>
+        <div class="col-1 my-col">2</div>
+        <div class="col-1 my-col">3</div>
+        <div class="col-1 my-col">4</div>
+        <div class="col-1 my-col">5</div>
+        <div class="col-1 my-col">6</div>
+        <div class="col-1 my-col">7</div>
+        <div class="col-1 my-col">8</div>
+        <div class="col-1 my-col">9</div>
+        <div class="col-1 my-col">10</div>
+        <div class="col-1 my-col">11</div>
+        <div class="col-1 my-col">12</div>
+      </div>
+
+      <hr>
+
+      <div class="row mb-2 ">
+        <div class="col-sm-2 my-col"> first</div>
+        <div class="col-sm-4 my-col"> second</div>
+        <div class="col-sm-1 my-col"> third </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2 offset-lg-2 my-col"> first</div>
+        <div class="col-sm-4 my-col"> second</div>
+        <div class="col-sm-1 offset-lg-3 my-col"> third </div>
+      </div>
+
+      <hr>
+
+    </div>
+
+
+    <div class="container">
+      <h2 class="text-center"> Alineamento</h2>
+
+      <div class="container">
+        <div class="row" style="height: 400px;">
+          <div class="col align-self-start my-col">
+            One of three columns
+          </div>
+          <div class="col align-self-center my-col">
+            One of three columns
+          </div>
+          <div class="col align-self-end my-col">
+            One of three columns
+          </div>
+        </div>
+      </div>
+      
+    </div>
+      
+
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

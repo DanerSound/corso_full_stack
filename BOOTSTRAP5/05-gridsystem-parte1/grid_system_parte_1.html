@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        .my-col {
+            border: 0.5px solid black;
+            text-align: center;
+        }
+    </style>
+    <title>Grid System - Parte 1</title>
+  </head>
+  <body>
+    <div class="text-center mt-2 mb-4">
+        <h1>Il Grid System di Bootstrap - Parte 1</h1>
+    </div>
+
+    <div class="container mb-4">
+      <h2 class="text-center mb-4">Sistema a Griglia - 12 Colonne</h2>
+      <div class="row">
+          <div class="col-1 my-col">1</div>
+          <div class="col-1 my-col">2</div>
+          <div class="col-1 my-col">3</div>
+          <div class="col-1 my-col">4</div>
+          <div class="col-1 my-col">5</div>
+          <div class="col-1 my-col">6</div>
+          <div class="col-1 my-col">7</div>
+          <div class="col-1 my-col">8</div>
+          <div class="col-1 my-col">9</div>
+          <div class="col-1 my-col">10</div>
+          <div class="col-1 my-col">11</div>
+          <div class="col-1 my-col">12</div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-6 my-col">
+            One of three columns
+            One of three columns
+            One of three columns
+            One of three columns
+            One of three columns
+            One of three columns
+            One of three columns
+            One of three columns
+          </div>
+          <div class="col-3 my-col">
+            One of three columns
+          </div>
+          <div class="col-3 my-col">
+            One of three columns
+          </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-4 my-col">Un terzo della larghezza della riga (row)</div>
+        </div>
+    </div>
+
+      
+
+    <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-1 my-col">1</div>
+        <div class="col-1 my-col">2</div>
+        <div class="col-1 my-col">3</div>
+        <div class="col-1 my-col">4</div>
+        <div class="col-1 my-col">5</div>
+        <div class="col-1 my-col">6</div>
+        <div class="col-1 my-col">7</div>
+        <div class="col-1 my-col">8</div>
+        <div class="col-1 my-col">9</div>
+        <div class="col-1 my-col">10</div>
+        <div class="col-1 my-col">11</div>
+        <div class="col-1 my-col">12</div>
+    </div>
+      <h2>small</h2>
+        <div class="row">
+            <div class="col-sm-5 my-col">Colonna Small 5x1 - (col-sm-5 ≥576px)</div>
+            <div class="col-sm-3 my-col">Colonna Small 3x1 - (col-sm-3 ≥576px)</div>
+            <div class="col-sm-4 my-col">Colonna Small 4x1 - (col-sm-4 ≥576px)</div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <div class="container">
+      <h2>medium</h2>
+        <div class="row">
+            <div class="col-md-4 my-col"> 4x1 - (col-sm-4 ≥768px)</div>
+            <div class="col-md-4 my-col"> 4x1 - (col-sm-4 ≥768px)</div>
+            <div class="col-md-4 my-col"> 4x1 - (col-sm-4 ≥768px)</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <h2>Large</h2>
+        <div class="row">
+            <div class="col-lg-2 my-col">Colonna Small 2x1 - (col-sm-2 ≥992px)</div>
+            <div class="col-lg-3 my-col">Colonna Small 3x1 - (col-sm-3 ≥992px)</div>
+            <div class="col-lg-7 my-col">Colonna Small 7x1 - (col-sm-7 ≥992px)</div>
+        </div>
+   
+
+    <hr>
+
+    <div class="row">
+      <div class="col-1 my-col">1</div>
+      <div class="col-1 my-col">2</div>
+      <div class="col-1 my-col">3</div>
+      <div class="col-1 my-col">4</div>
+      <div class="col-1 my-col">5</div>
+      <div class="col-1 my-col">6</div>
+      <div class="col-1 my-col">7</div>
+      <div class="col-1 my-col">8</div>
+      <div class="col-1 my-col">9</div>
+      <div class="col-1 my-col">10</div>
+      <div class="col-1 my-col">11</div>
+      <div class="col-1 my-col">12</div>
+  </div>
+
+</div>
+  <hr>
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-md-4 my-col">Colonna - (col-lg-6 ≥992px) (col-md-4 ≥768px)</div>
+          <div class="col-lg-6 col-md-8 my-col">Colonna - (col-lg-6 ≥992px) (col-md-8 ≥768px)</div>
+      </div>
+  </div>
+
+
+    <!--
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 my-col">Colonna Medium 2x1 - (col-md-2 ≥768px)</div>
+            <div class="col-md-6 my-col">Colonna Medium 6x1 - (col-md-6 ≥768px)</div>
+            <div class="col-md-4 my-col">Colonna Medium 4x1 - col-md-4 ≥768px)</div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 my-col">Colonna - (col-lg-6 ≥992px) (col-md-4 ≥768px)</div>
+            <div class="col-lg-6 col-md-8 my-col">Colonna - (col-lg-6 ≥992px) (col-md-8 ≥768px)</div>
+        </div>
+    </div>
+-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>
